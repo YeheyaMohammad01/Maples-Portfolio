@@ -1,9 +1,8 @@
 import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
 import WorkExamples from "../components/WorkExamples";
-import BackgroundImage from "@/components/BackgroundImage";
-import NavBar from "@/components/NavBar";
-import Footer from "@/components/Footer";
+import BackgroundImage from "../components/BackgroundImage";
+import NavBar from "../components/NavBar";
 
 export default function Home() {
   return (
