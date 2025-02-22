@@ -1,0 +1,32 @@
+.footer-container {
+  background: linear-gradient(to top, #000000 0%, #141414);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  height: 40vh;
+}
+
+.logo-and-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-and-text-container h1 {
+  font-size: 3rem;
+}
+
+.footer-logo {
+  width: 10rem;
+}
+
+.discord-logo {
+  width: 3rem;
+}
+
+.discord-id {
+  padding-left: 1rem;
+  font-size: medium;
+}
