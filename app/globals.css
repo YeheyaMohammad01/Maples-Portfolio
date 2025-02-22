@@ -18,6 +18,14 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+#about, #work {
+  scroll-margin-top: 8rem;
+}
+
 .background-image {
   position: fixed;
   top: 0;
@@ -39,7 +47,7 @@
 section::after {
   content: '';
   position: absolute;
-  bottom: 100%; /* Adjust spacing below the image */
+  bottom: 0%; /* Adjust spacing below the image */
   left: 50%;
   width: 100%; /* Adjust the width of the underline */
   height: 0.1rem; /* Thickness of the underline */

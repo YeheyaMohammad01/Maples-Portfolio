@@ -1,15 +1,22 @@
-import Hero from '../components/Hero';
-import AboutMe from '../components/AboutMe';
-import WorkExamples from '../components/WorkExamples';
+import Hero from "../components/Hero";
+import AboutMe from "../components/AboutMe";
+import WorkExamples from "../components/WorkExamples";
 import BackgroundImage from "@/components/BackgroundImage";
+import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
       <BackgroundImage />
+      <NavBar fadeOnScroll={true} />
       <Hero />
-      <AboutMe />
-      <WorkExamples />
+      <section id="about">
+        <AboutMe />
+      </section>
+      <section id="work">
+        <WorkExamples />
+      </section>
     </>
   );
 }

@@ -1,17 +1,21 @@
 .languageContainer {
     background: rgba(0, 0, 0, 0.25);
-    /* gap: 8px;
-    padding: 16px;
-    border-radius: 8px;
-    border: 2px solid white;
-    box-shadow: 0 0 8px 2px white; */
     transition: transform 0.2s ease-in-out;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .languageContainer h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
   }
   
   .languageContainer:hover {
     transform: scale(1.05);
   }
-  
+
   .languageLogo {
     width: 12rem;
     height: 12rem;

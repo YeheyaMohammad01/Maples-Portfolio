@@ -3,7 +3,7 @@ import Language from "./Language"
 
 const AboutMe = () => {
     return (
-        <section className={styles.aboutMe}>
+        <section className={`${styles.aboutMe} section`}>
             <div className={styles.content}>
                 <h1 className={styles.title}>
                     About Me
@@ -17,13 +17,15 @@ const AboutMe = () => {
                 </p>
                 <br />
                 <div className={styles.languagesGrid}>
-                    <Language name="JavaScript" imageSrc="/images/JS-logo.jpg" />
-                    <Language name="TypeScript" imageSrc="/images/TS-logo.png" />
-                    <Language name="HTML" imageSrc="/images/HTML-logo.png" />
-                    <Language name="CSS" imageSrc="/images/CSS-logo.png" />
-                    <Language name="React" imageSrc="/images/React-logo.png" />
-                    <Language name="Python" imageSrc="/images/Python-logo.png" />
-                    <Language name="Java" imageSrc="/images/Java-logo.png" />
+                    <Language name="JavaScript" imageSrc="/images/JS-logo.jpg" langName="JavaScript"/>
+                    <Language name="TypeScript" imageSrc="/images/TS-logo.png" langName="TypeScript"/>
+                    <Language name="HTML" imageSrc="/images/HTML-logo.png" langName="HTML" />
+                    <Language name="CSS" imageSrc="/images/CSS-logo.png" langName="CSS"/>
+                    <Language name="React" imageSrc="/images/React-logo.png" langName="React"/>
+                    <Language name="Python" imageSrc="/images/Python-logo.png" langName="Python"/>
+                    <Language name="Java" imageSrc="/images/Java-logo.png" langName="Java"/>
+                    <Language name="Git Bash" imageSrc="/images/GitBash-logo.png" langName="Git"/>
+                    <Language name="Bash" imageSrc="/images/Bash-logo.png" langName="Bash"/>
                 </div>
             </div>
         </section>
