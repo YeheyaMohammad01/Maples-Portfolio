@@ -1,4 +1,4 @@
-import styles from './AboutMe.module.css';
+import styles from './Section.module.css';
 import Language from "./Language"
 
 const AboutMe = () => {
