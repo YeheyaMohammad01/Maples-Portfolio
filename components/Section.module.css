@@ -86,6 +86,10 @@
     rotate: 10deg;
     height: auto;
   }
+
+  .bio {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 500px) and (max-height: 1000px) {

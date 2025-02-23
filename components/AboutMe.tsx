@@ -3,7 +3,7 @@ import Language from "./Language"
 
 const AboutMe = () => {
     return (
-        <section className={`${styles.aboutMe} section`}>
+        <section className={styles.aboutMe}>
             <div className={styles.content}>
                 <h1 className={styles.title}>
                     About Me

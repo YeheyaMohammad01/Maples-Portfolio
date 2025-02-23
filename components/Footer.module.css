@@ -30,3 +30,17 @@
   padding-left: 1rem;
   font-size: medium;
 }
+
+@media (max-width: 500px) {
+  .footer-logo {
+    width: 5rem;
+  }
+
+  .footer-container h1 {
+    font-size: 2rem;
+  }
+
+  .discord-logo {
+    width: 2rem;
+  }
+}

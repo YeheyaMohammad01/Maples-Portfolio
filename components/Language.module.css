@@ -9,7 +9,6 @@
 
   .languageContainer h2 {
     font-weight: bold;
-    font-size: 1.5rem;
   }
   
   .languageContainer:hover {
@@ -22,9 +21,12 @@
     border-radius: 0.5rem;
   }
   
-  .languageName {
-    color: white;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-align: center;
+
+  /* Screen adjustments */
+
+  @media (max-width: 500px) {
+    .languageContainer {
+      width: 8rem;
+      height: 8rem;
+    }
   }

@@ -3,7 +3,7 @@ import styles from './Hero.module.css'; // Import CSS module
 
 const Hero = () => {
   return (
-    <section className={styles.hero}>
+    <div className={styles.hero}>
       <div className={styles.overlay}></div>
       <div className={styles.content}>
         <div className={styles.titleContainer}>
@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
         <h2 className={styles.subtitle}>Programming Your Ideas to Life.</h2>
       </div>
-    </section>
+    </div>
   )
 }
 

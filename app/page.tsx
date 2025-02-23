@@ -10,12 +10,12 @@ export default function Home() {
       <BackgroundImage />
       <NavBar fadeOnScroll={true} />
       <Hero />
-      <section id="about">
+      <div id="about">
         <AboutMe />
-      </section>
-      <section id="work">
+      </div>
+      <div id="work">
         <WorkExamples />
-      </section>
+      </div>
     </>
   );
 }
